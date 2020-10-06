@@ -4,7 +4,7 @@
 
 ## General info
 This project is a simple voice-chat, where one can speak with his frieds without a need to create an account.
-It's still in develpment although it has most major funcionalities. Currently desktop-only.
+It's still in develpment although it the has most major funcionalities. Currently desktop-only.
 	
 ## Technologies
 Project is created with:
