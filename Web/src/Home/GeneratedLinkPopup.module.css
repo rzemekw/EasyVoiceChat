@@ -1,0 +1,114 @@
+.popup-bg {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+    overflow: hidden;
+}
+
+.GeneratedLinkPopup {
+    min-width: 400px;
+    width: min-content;
+    padding: 13px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--popup-bg-color);
+    position: relative;
+    border: 1px solid black;
+}
+
+.GeneratedLinkPopup>div {
+    margin: 7px 0;
+}
+
+.GeneratedLinkPopup > .close {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    width: 2em;
+    height: 2em;
+    font-size: 1.05em;
+    border-radius: 50%;
+    padding: 4px;
+    margin: 0;
+    cursor: pointer;
+    transition: .15s;
+    display: grid;
+    place-items: center;
+}
+.GeneratedLinkPopup > .close:hover {
+    background-color: var(--popup-hover-bg-color);
+}
+
+
+.header {
+    font-weight: bold;
+}
+
+.header {
+    font-size: 1.05em;
+}
+
+.header, .url-container, .close {
+    color: var(--popup-text-color);
+}
+
+.description {
+    color: var(--popup-description-color);
+    font-size: .95em;
+}
+
+.url-container {
+    padding: 0 14px;
+    border-radius: 6px;
+    background-color: var(--popup-subcontent-bg-color);
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    align-items: center;
+}
+
+.url {
+    margin-right: 7px;
+}
+
+.copy-icon-container {
+    margin: 4px 0;
+    margin-left: auto;
+    padding: 5px;
+    height: 2.3em;
+    width: 2.3em;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: .15s;
+    cursor: pointer;
+    transform: scale(-1, 1);
+}
+
+.copy-icon-container:hover {
+    background-color: var(--popup-hover-bg-color);
+}
+
+.copy-icon-container svg {
+    font-size: 1.4em;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+    font-size: 1.15em;
+}
+
+.footer a {
+    color: var(--popup-a-color);
+    transition: .15s;
+}
+
+.footer a:hover {
+    color: var(--popup-a-hover-color);
+}

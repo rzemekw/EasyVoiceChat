@@ -1,0 +1,40 @@
+.ChatMessageForm {
+    display: flex;
+    border-top: 2px solid var(--text-color);
+    margin-top: auto;
+    flex-shrink: 0;
+    padding: 10px 38px;
+    flex-basis: 60px;
+    width: 100%;
+}
+
+.ChatMessageForm input, .ChatMessageForm button {
+    height: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.ChatMessageForm input {
+    padding: 0 10px;
+    flex-grow: 1;
+    background-color: var(--input-bg-color);
+    transition: .05s;
+}
+
+.ChatMessageForm input:focus {
+    background-color: var(--input-focus-bg-color);
+}
+
+.ChatMessageForm button {
+    flex-grow: 0;
+    width: 90px;
+    margin-left: 38px;
+    cursor: pointer;
+    background-color: var(--input-bg-color);
+    transition: .15s;
+}
+
+.ChatMessageForm button:hover {
+    background-color: var(--input-focus-bg-color);
+}

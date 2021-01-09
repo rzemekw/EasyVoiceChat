@@ -1,0 +1,63 @@
+.EnterNamePopup-bg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: grid;
+    place-items: center;
+}
+
+.EnterNamePopup {
+    width: 350px;
+    padding: 14px 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--popup-bg-color);
+    position: relative;
+    border: 1px solid black;
+}
+
+.EnterNamePopup>* {
+    margin: 10px 0;
+}
+
+.header {
+    color: var(--popup-text-color);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.EnterNamePopup>input[type="text"] {
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: var(--popup-input-bg-color);
+    color: var(--popup-input-text-color);
+    transition: .1s;
+}
+
+.EnterNamePopup>input[type="text"]:focus {
+    background-color: var(--popup-input-focus-bg-color);
+}
+
+.EnterNamePopup>input[type="submit"] {
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
+    width: min-content;
+    margin: 4px 20px 0 0;
+    align-self: flex-end;
+    cursor: pointer;
+    color: var(--popup-a-color);
+    transition: .2s;
+}
+
+.EnterNamePopup>input[type="submit"]:hover {
+    color: var(--popup-a-hover-color);
+}

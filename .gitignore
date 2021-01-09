@@ -1,0 +1,8 @@
+.vs/
+VoiceChat.sln
+bin/
+obj/
+*.csproj
+*.csproj.user
+.config/
+VoiceChat.Web/Properties/

@@ -1,0 +1,41 @@
+.User {
+    position: relative;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 1.2em;
+    padding: 2px 15px;
+    width: 100%;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.User.active {
+    background-color: var(--bg-hover-color);
+}
+
+.User:hover {
+    background-color: var(--bg-hover-color);
+}
+
+.user-name {
+    margin-bottom: .065em;
+    flex-shrink: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.muted-icon {
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.muted-icon svg {
+    font-size: .8em;
+    fill: var(--text-color);
+}

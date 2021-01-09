@@ -1,0 +1,46 @@
+.VoiceRoom {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.left-panel {
+    width: 250px;
+    padding-top: 15px;
+    border-right: 2px solid var(--text-color);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.settings-container {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    border-top: 2px solid var(--text-color);
+    height: 60px;
+    align-items: center;
+}
+
+.settings-container svg {
+    font-size: 38px;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    fill: var(--text-color);
+    transition: .15s;
+}
+
+.settings-container svg:hover {
+    background-color: var(--bg-hover-color);
+}
+
+.left-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-icons {
+    margin-left: auto;
+}

@@ -1,0 +1,30 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+    padding: 30px;
+}
+
+.header {
+    font-size: 3.3em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.Home > .description {
+    margin: 2px;
+}
+
+.Home > .create {
+    margin-top: 12px;
+    text-decoration: underline;
+    font-size: 2em;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.Home > .create:hover {
+    color: var(--text-hover-color);
+}

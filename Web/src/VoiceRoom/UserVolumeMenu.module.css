@@ -1,0 +1,34 @@
+.UserVolumeMenu {
+    position: absolute;
+    width: 200px;
+    left: 100%;
+    top: 0;
+    background-color: var(--popup-bg-color);
+    border-radius: 10px;
+    border: 1px solid black;
+    color: var(--popup-text-color);
+    padding: 0 8px;
+    font-size: .95em;
+    z-index: 1;
+}
+
+.volume input {
+    margin-top: 4px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.UserVolumeMenu > div {
+    padding: 8px 8px;
+}
+
+.UserVolumeMenu > div:nth-child(n + 2) {
+    border-top: 1px solid var(--popup-text-color);
+    cursor: pointer;
+    transition: .15s;
+}
+
+.UserVolumeMenu > div:nth-child(n + 2):hover {
+    background-color: var(--popup-hover-bg-color);
+}
